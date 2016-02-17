@@ -93,6 +93,7 @@ a:hover {
   font-size: .9em;
 }
 
+
 hr.double {
   background: url("../img/border.png") repeat-x;
   border: none;
@@ -118,4 +119,68 @@ hr.double {
 
 .item img {
   width: 100%;
+}
+
+#search form {
+    width: 180px;
+    height: 30px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 4px;
+    padding-top: 5px;
+    border: 1px solid transparent;
+}
+#search .searchInput {
+    border: none;
+    text-align: center;
+    color: #444444;
+    font-family: "Lusitana", serif;
+    float: left;
+    width: 150px;
+    padding-left: 24px;
+    font-size: 14px;
+}
+/*Page MID -------------------------------*/
+
+.pageMid {
+  max-width: 100%;
+}
+.pageMid img {
+  float: left;
+  width: 25%;
+  margin: 3% 0 3% 0;
+}
+
+.pageMid .insideRow {
+  border-bottom: 1px solid black;
+  overflow: auto;
+}
+
+.pageMid .newsText{
+  float: left;
+  width: 73%;
+  margin: 5% 0 0 2%;
+}
+
+.newsText p:hover {
+  color: #F1592A;
+}
+
+p.author:hover {
+  color: black;
+}
+
+.date {
+  color: gray;
+  font-size: 11px;
+  padding-left: 20px;
+}
+.newsText p:nth-child(2) {
+  font-size: 11px;
+}
+
+
+
+#megaMart {
+  border-left: 1px solid black;
 }

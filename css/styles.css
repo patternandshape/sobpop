@@ -2,3 +2,31 @@ body {
   background-color: #fff;
   font-family: 'Lusitana', serif;
 }
+
+a {
+  color: #F1592A;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.glyphicon {
+  color: #000;
+}
+
+.carousel-indicators-numbers li{
+  list-style-type: none;
+  display: inline-block;
+  color: gray;
+}
+
+
+.carousel-indicators-numbers li:active {
+  color: black;
+}
+
+.carousel-indicators-numbers li:hover {
+  color: #F1592A;
+}

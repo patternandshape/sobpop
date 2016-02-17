@@ -14,6 +14,20 @@ a:hover {
 
 .glyphicon {
   color: #000;
+  font-size: 10px;
+}
+
+.container {
+  margin-top: 30px;
+  width: 63vw;
+  padding-right: 35px;
+}
+
+/*Page Top -------------------------------*/
+
+.carousel-indicators-numbers {
+  float: right;
+  margin-top: 1vh;
 }
 
 .carousel-indicators-numbers li{
@@ -22,11 +36,86 @@ a:hover {
   color: gray;
 }
 
-
 .carousel-indicators-numbers li:active {
   color: black;
 }
 
 .carousel-indicators-numbers li:hover {
   color: #F1592A;
+}
+#logoColumn {
+  border-right: 1px solid gray;
+  padding: 0 20px 0;
+}
+
+#myCarousel img {
+  padding-top: 4%;
+}
+
+#carouselColumn {
+  /*padding: 0 0 0 20px;*/
+  float: right;
+}
+
+.pageTop li {
+  list-style-type: none;
+  display: inline-block;
+  padding:0 3px 0 3px;
+}
+
+.col-md-5 ul {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.navLinks {
+  margin-top: 1.5vh;
+  font-size: .8em;
+}
+
+.navLinks:hover {
+  color: #F1592A;
+}
+
+.bar {
+  color: red;
+  padding-left: 6px;
+}
+
+.pageTop h5 {
+  background-color: #F1F2F2;
+  height: 4vh;
+  margin: 0;
+  text-align: center;
+  padding-top: 1.4vh;
+  letter-spacing: 1px;
+  font-size: .9em;
+}
+
+hr.double {
+  background: url("../img/border.png") repeat-x;
+  border: none;
+  height: 5px;
+  margin: 0;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+
+#midBreak {
+  border: 1.5px solid #000;
+}
+
+.item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item img {
+  width: 100%;
 }

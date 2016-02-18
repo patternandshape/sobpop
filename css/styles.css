@@ -208,3 +208,39 @@ hr {
 .bands:hover {
   color: #F1592A;
 }
+
+.pageBottom {
+  margin-bottom: 80px;
+}
+.pageBottom h5 {
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #F1F2F2;
+  height: 12vh;
+  border-top: 2px solid #000;
+}
+
+.miniLogo {
+  float: left;
+}
+
+.footer ul {
+  padding: 0;
+  clear:both;
+}
+
+.footer img {
+  padding-right: 10px;
+}
+
+.footer li {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.bar2 {
+  color: #000;
+  padding: 0 5px;
+}

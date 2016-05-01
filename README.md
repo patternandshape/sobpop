@@ -13,6 +13,7 @@ Using Bootstrap’s grid as our primary layout tool, we replicated the Sub Pop R
 
 * HTML
 * CSS
+* Bootstrap
 
 ##### License
 
